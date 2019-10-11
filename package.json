@@ -20,11 +20,12 @@
 	"main": "./lib/passport-wsfed-saml2",
 	"dependencies": {
 		"@hapi/cryptiles": "~4.2.1",
-		"ejs": "2.5.5",
+		"ejs": "^2.7.1",
 		"jsonwebtoken": "~5.0.4",
 		"passport-strategy": "^1.0.0",
 		"uid2": "0.0.x",
 		"valid-url": "^1.0.9",
+		"node-forge": "^0.7.6",
 		"x509": "ghaiklor/node-x509#master",
 		"xml-crypto": "auth0/xml-crypto#fix-digest",
 		"xml-encryption": "0.11.0",
