@@ -4,6 +4,7 @@ var samlp = require('samlp');
 var xtend = require('xtend');
 var fs = require('fs');
 var path = require('path');
+const bodyParser = require('body-parser');
 
 var passport = require('passport');
 var Strategy = require('../../lib/passport-wsfed-saml2').Strategy;
@@ -295,14 +296,12 @@ module.exports.start = function(options, callback){
 
   var app = express();
 
-  app.configure(function(){
-    this.use(express.bodyParser());
-    this.use(passport.initialize());
-    this.use(passport.session());
-    this.use(function(req,res,next){
-      req.user = fakeUser;
-      next();
-    });
+  app.use(bodyParser.json());
+  app.use(passport.initialize());
+  app.use(passport.session());
+  app.use(function(req,res,next){
+    req.user = fakeUser;
+    next();
   });
 
   function getPostURL (audience, samlRequestDom, req, callback) {
