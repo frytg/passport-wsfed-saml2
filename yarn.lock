@@ -1576,7 +1576,7 @@ saml@^0.12.1:
     xmldom "=0.1.15"
     xpath "0.0.5"
 
-saml@~0.14.0:
+saml@^0.14, saml@~0.14.0:
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/saml/-/saml-0.14.0.tgz#a84da5b3704fc42060aa96bfbc39cd6d64a5996b"
   integrity sha512-3071zwAK6PI3czQEd0lGt5P7SqI+tU1GeKuJqARRoib+8AsbGoO1Nq9f0WuMx3e59K+GtFYFhGp4i4zvqjwKDQ==
@@ -1590,18 +1590,18 @@ saml@~0.14.0:
     xmldom "=0.1.15"
     xpath "0.0.5"
 
-samlp@~3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/samlp/-/samlp-3.4.1.tgz#f75b21bed0a572e28874b063bb012a7d60a1a0c2"
-  integrity sha512-7FbX9yp/UOwCR9vSpBWufPHbOMjg96vbwOL7CoFlzWb3H6jGN637ljVASkoCPmpac1f2+NjMSzech4sFCjE7Qg==
+samlp@~3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/samlp/-/samlp-3.5.0.tgz#0fb6c52b42c364a29ce9cb7a27c6e5641ed4cafd"
+  integrity sha512-Fh0XHY529NbWER1ByHNBt1nDPlKjYP9vrKvwJaRa1wAGbBJ4rpHjl5sY6sShHxccvZ7dp1SA0FldJiF/MaDZ5A==
   dependencies:
     "@auth0/thumbprint" "0.0.6"
     ejs "2.5.5"
     flowstate "^0.4.0"
     querystring "^0.2.0"
-    saml "^0.12.1"
-    xml-crypto "^0.10.1"
-    xmldom auth0/xmldom#v0.1.19-auth0_1
+    saml "^0.14"
+    xml-crypto "^1.5.3"
+    xmldom "github:auth0/xmldom#v0.1.19-auth0_1"
     xpath "0.0.5"
     xtend "^1.0.3"
 
@@ -1963,7 +1963,15 @@ x509@ghaiklor/node-x509#master:
   dependencies:
     nan "2.14.0"
 
-xml-crypto@^0.10.1, xml-crypto@auth0/xml-crypto#fix-digest, xml-crypto@~0.10.1:
+xml-crypto@^1.5.3:
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/xml-crypto/-/xml-crypto-1.5.3.tgz#a8f500b90f0dfaf0efa3331c345ecb0fff993c34"
+  integrity sha512-uHkmpUtX15xExe5iimPmakAZN+6CqIvjmaJTy4FwqGzaTjrKRBNeqMh8zGEzVNgW0dk6beFYpyQSgqV/J6C5xA==
+  dependencies:
+    xmldom "0.1.27"
+    xpath "0.0.27"
+
+xml-crypto@auth0/xml-crypto#fix-digest, xml-crypto@~0.10.1:
   version "0.10.1"
   resolved "https://codeload.github.com/auth0/xml-crypto/tar.gz/65fa1e22c5884e45135d0bacccb99ad11e900bf1"
   dependencies:
@@ -2026,7 +2034,7 @@ xmldom@=0.1.19:
   resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.19.tgz#631fc07776efd84118bf25171b37ed4d075a0abc"
   integrity sha1-Yx/Ad3bv2EEYvyUXGzftTQdaCrw=
 
-xmldom@auth0/xmldom#v0.1.19-auth0_1:
+xmldom@auth0/xmldom#v0.1.19-auth0_1, "xmldom@github:auth0/xmldom#v0.1.19-auth0_1":
   version "0.1.19"
   resolved "https://codeload.github.com/auth0/xmldom/tar.gz/3376bc7beb5551bf68e12b0cc6b0e3669f77d392"
 
