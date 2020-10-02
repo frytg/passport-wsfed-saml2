@@ -1576,10 +1576,10 @@ saml@^0.12.1:
     xmldom "=0.1.15"
     xpath "0.0.5"
 
-saml@~0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/saml/-/saml-0.14.0.tgz#a84da5b3704fc42060aa96bfbc39cd6d64a5996b"
-  integrity sha512-3071zwAK6PI3czQEd0lGt5P7SqI+tU1GeKuJqARRoib+8AsbGoO1Nq9f0WuMx3e59K+GtFYFhGp4i4zvqjwKDQ==
+saml@~0.15.0:
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/saml/-/saml-0.15.0.tgz#e3e9e4de62b9615eeae4adfc454d2b6cda9349ae"
+  integrity sha512-WEFkmZZbVujT53VDaIsam3+PbSInRyenZJHMxbaTQgwQJ3jpetbPiRtBjolW0CjKmc0A2BP28AbYoSrGEf4ANg==
   dependencies:
     async "~0.2.9"
     moment "2.19.3"
