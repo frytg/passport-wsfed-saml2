@@ -1947,10 +1947,10 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
-wsfed@~4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/wsfed/-/wsfed-4.0.0.tgz#665888c1c7eadb1213ba5ead6745c1172aed82af"
-  integrity sha1-ZliIwcfq2xITul6tZ0XBFyrtgq8=
+wsfed@~5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/wsfed/-/wsfed-5.0.0.tgz#9e715e32e36ebf4ff16043e34059abf2cd81d17e"
+  integrity sha512-CCzBlMRFrvViG4stBEtgeZh6A/geGsPighhbLfoBv40+5+N4s10/iW1lT68knZdGT3pT7gS4wkYrVjR1IBRCzA==
   dependencies:
     "@auth0/thumbprint" "0.0.6"
     ejs "2.5.5"
