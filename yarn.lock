@@ -720,6 +720,11 @@ flowstate@^0.4.0:
     uid-safe "^2.1.0"
     utils-flatten "^1.0.0"
 
+foreach@~2.0.1:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/foreach/-/foreach-2.0.5.tgz#0bee005018aeb260d0a3af3ae658dd0136ec1b99"
+  integrity sha1-C+4AUBiusmDQo6865ljdATbsG5k=
+
 forever-agent@~0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/forever-agent/-/forever-agent-0.6.1.tgz#fbc71f0c41adeb37f96c577ad1ed42d8fdacca91"
@@ -890,6 +895,11 @@ iconv-lite@0.4.24:
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
+indexof@~0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/indexof/-/indexof-0.0.1.tgz#82dc336d232b9062179d05ab3293a66059fd435d"
+  integrity sha1-gtwzbSMrkGIXnQWrMpOmYFn9Q10=
+
 inflight@^1.0.4:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/inflight/-/inflight-1.0.6.tgz#49bd6331d7d02d0c09bc910a1075ba8165b56df9"
@@ -967,6 +977,11 @@ is-number@^7.0.0:
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
 
+is-object@~0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/is-object/-/is-object-0.1.2.tgz#00efbc08816c33cfc4ac8251d132e10dc65098d7"
+  integrity sha1-AO+8CIFsM8/ErIJR0TLhDcZQmNc=
+
 is-regex@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/is-regex/-/is-regex-1.1.0.tgz#ece38e389e490df0dc21caea2bd596f987f767ff"
@@ -995,6 +1010,11 @@ is-typedarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
   integrity sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
+
+is@~0.2.6:
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/is/-/is-0.2.7.tgz#3b34a2c48f359972f35042849193ae7264b63562"
+  integrity sha1-OzSixI81mXLzUEKEkZOucmS2NWI=
 
 isarray@^2.0.5:
   version "2.0.5"
@@ -1279,6 +1299,11 @@ negotiator@0.6.2:
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
   integrity sha512-hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw==
 
+node-forge@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.10.0.tgz#32dea2afb3e9926f02ee5ce8794902691a676bf3"
+  integrity sha512-PPmu8eEeG9saEUvI97fm4OYxXVB6bFvyNTyiUOBichBpFG8A1Ljw3bY62+5oOjDEMHRnd0Y7HQ+x7uzxOzC6JA==
+
 node-forge@^0.7.0:
   version "0.7.6"
   resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.7.6.tgz#fdf3b418aee1f94f0ef642cd63486c77ca9724ac"
@@ -1315,6 +1340,15 @@ object-keys@^1.0.11, object-keys@^1.0.12, object-keys@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
+
+object-keys@~0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-0.2.0.tgz#cddec02998b091be42bf1035ae32e49f1cb6ea67"
+  integrity sha1-zd7AKZiwkb5CvxA1rjLknxy26mc=
+  dependencies:
+    foreach "~2.0.1"
+    indexof "~0.0.1"
+    is "~0.2.6"
 
 object.assign@4.1.0, object.assign@^4.1.0:
   version "4.1.0"
@@ -1574,6 +1608,20 @@ saml@^0.12.1:
     xml-encryption "0.11.2"
     xml-name-validator "~2.0.1"
     xmldom "=0.1.15"
+    xpath "0.0.5"
+
+saml@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/saml/-/saml-1.0.0.tgz#0e6583a411ca8818d58ddb400bc966ec0814652c"
+  integrity sha512-Fxoc37EK+XK5vc1Tb2n7ut7906oT2PfL95ppbU5RWnCJ1QI5wZ0Ae7HUd/MbiuLhGVgs5i7DrGbJ2azEybf96A==
+  dependencies:
+    async "~0.2.9"
+    moment "2.19.3"
+    valid-url "~1.0.9"
+    xml-crypto "2.0.0"
+    xml-encryption "^1.2.1"
+    xml-name-validator "~2.0.1"
+    xmldom "0.1.17"
     xpath "0.0.5"
 
 saml@~0.14.0:
@@ -1947,21 +1995,30 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
-wsfed@~4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/wsfed/-/wsfed-4.0.0.tgz#665888c1c7eadb1213ba5ead6745c1172aed82af"
-  integrity sha1-ZliIwcfq2xITul6tZ0XBFyrtgq8=
+wsfed@~6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/wsfed/-/wsfed-6.1.0.tgz#ca9b20aa51d1332b9591ce8cbe743defbac287af"
+  integrity sha512-nZZu9Oeg4DvORwHbbuZES1HyAFka58tIop51KJmFF1E7eDV1u1+FVljr1uyEfAOL7+Z3rZjnVOLBvHyXVQ8OSg==
   dependencies:
     "@auth0/thumbprint" "0.0.6"
     ejs "2.5.5"
     jsonwebtoken "~5.0.4"
-    saml "^0.12.1"
+    saml "^1.0.0"
+    xtend "~2.0.3"
 
 x509@ghaiklor/node-x509#master:
   version "0.3.4"
   resolved "https://codeload.github.com/ghaiklor/node-x509/tar.gz/acf0d78fac9b28537ca6083aa593890a5dbfd0f1"
   dependencies:
     nan "2.14.0"
+
+xml-crypto@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/xml-crypto/-/xml-crypto-2.0.0.tgz#54cd268ad9d31930afcf7092cbb664258ca9e826"
+  integrity sha512-/a04qr7RpONRZHOxROZ6iIHItdsQQjN3sj8lJkYDDss8tAkEaAs0VrFjb3tlhmS5snQru5lTs9/5ISSMdPDHlg==
+  dependencies:
+    xmldom "0.1.27"
+    xpath "0.0.27"
 
 xml-crypto@^0.10.1, xml-crypto@auth0/xml-crypto#fix-digest, xml-crypto@~0.10.1:
   version "0.10.1"
@@ -1999,6 +2056,16 @@ xml-encryption@1.2.0:
     xmldom "~0.1.15"
     xpath "0.0.27"
 
+xml-encryption@^1.2.1:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/xml-encryption/-/xml-encryption-1.2.2.tgz#352f2d133ae697977894f54bd75e65150657a869"
+  integrity sha512-s0Fax5BpCZqLzYGtlmilUoi/kyhj8dHqaMOvTAQLifkDS4QVfIuBqhEj9POtk3YbZ0tSxp/hvbGj3iCOM1ej8w==
+  dependencies:
+    escape-html "^1.0.3"
+    node-forge "^0.10.0"
+    xmldom "~0.1.15"
+    xpath "0.0.27"
+
 xml-name-validator@~2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/xml-name-validator/-/xml-name-validator-2.0.1.tgz#4d8b8f1eccd3419aa362061becef515e1e559635"
@@ -2010,6 +2077,11 @@ xml2js@0.1.x:
   integrity sha1-UnTmf1pkxfkpdM2FE54DMq3GuQw=
   dependencies:
     sax ">=0.1.1"
+
+xmldom@0.1.17:
+  version "0.1.17"
+  resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.17.tgz#c5debadc069f0a3967ddfbc01395a4d7cb0d4282"
+  integrity sha1-xd663AafCjln3fvAE5Wk18sNQoI=
 
 xmldom@0.1.27:
   version "0.1.27"
@@ -2054,6 +2126,14 @@ xtend@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-1.0.3.tgz#3f5d937353cced8e085399a563fdb22541c2960a"
   integrity sha1-P12Tc1PM7Y4IU5mlY/2yJUHClgo=
+
+xtend@~2.0.3:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/xtend/-/xtend-2.0.6.tgz#5ea657a6dba447069c2e59c58a1138cb0c5e6cee"
+  integrity sha1-XqZXptukRwacLlnFihE4ywxebO4=
+  dependencies:
+    is-object "~0.1.2"
+    object-keys "~0.2.0"
 
 xtend@~4.0.1:
   version "4.0.2"
