@@ -1269,10 +1269,10 @@ ms@2.1.2, ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-nan@2.14.0:
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.0.tgz#7818f722027b2459a86f0295d434d1fc2336c52c"
-  integrity sha512-INOFj37C7k3AfaNTtX8RhsTw7qRy7eLET14cROi9+5HAVbbHuIWUHEauBv5qT4Av2tWasiTY1Jw6puUNqRJXQg==
+nan@2.14.2:
+  version "2.14.2"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.2.tgz#f5376400695168f4cc694ac9393d0c9585eeea19"
+  integrity sha512-M2ufzIiINKCuDfBSAUr1vWQ+vuVcA9kqx8JJUsbQi6yf1uGRyb7HfpdfUr5qLXf3B/t8dPvcjhKMmlfnP47EzQ==
 
 negotiator@0.6.2:
   version "0.6.2"
@@ -1958,10 +1958,11 @@ wsfed@~4.0.0:
     saml "^0.12.1"
 
 x509@ghaiklor/node-x509#master:
-  version "0.3.4"
-  resolved "https://codeload.github.com/ghaiklor/node-x509/tar.gz/acf0d78fac9b28537ca6083aa593890a5dbfd0f1"
+  version "1.1.0"
+  uid b508bffcc36e2c2f7b9cd70766babdd06a95197d
+  resolved "https://codeload.github.com/ghaiklor/node-x509/tar.gz/b508bffcc36e2c2f7b9cd70766babdd06a95197d"
   dependencies:
-    nan "2.14.0"
+    nan "2.14.2"
 
 xml-crypto@^0.10.1, xml-crypto@auth0/xml-crypto#fix-digest, xml-crypto@~0.10.1:
   version "0.10.1"
