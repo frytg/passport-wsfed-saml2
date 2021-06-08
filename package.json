@@ -41,7 +41,7 @@
 		"cheerio": "~1.0.0-rc.3",
 		"body-parser": "1.19.0",
 		"express": "~4.17.1",
-		"mocha": "~8.0.1",
+		"mocha": "~9.0.0",
 		"passport": "^0.4.1",
 		"request": "~2.88.2",
 		"saml": "~0.14.0",
